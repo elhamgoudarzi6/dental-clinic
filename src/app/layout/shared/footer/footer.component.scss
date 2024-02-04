@@ -1,0 +1,30 @@
+.footer {
+  font-size: 14px;
+  font-family: myfont !important;
+  color: #fff;
+  background: var(--color1);
+  margin-top: 30px;
+  padding: 20px 0;
+}
+
+.footer .footer-legal {
+  font-size: 12px;
+}
+
+.footer .footer-legal .copyright {
+  padding: 5px 0;
+  text-align: center;
+}
+
+.footer .footer-legal .credits {
+  padding-top: 4px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1;
+}
+
+@media (max-width: 991px) {
+  .footer {
+    font-size: 12px;
+  }
+}

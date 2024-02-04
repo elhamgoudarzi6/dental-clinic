@@ -1,0 +1,108 @@
+<p-toast position="center"></p-toast>
+
+<section id="contact" class="ftco-section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-9">
+        <div class="wrapper">
+          <div class="row">
+            <div class="col-lg-6 d-flex align-items-stretch">
+              <div class="info-wrap w-100 p-lg-5 p-4 img">
+                <h3 class="mb-5">راه های ارتباطی</h3>
+                <a class="dbox w-100 d-flex align-items-start" href="https://goo.gl/maps/hbpqLgpgwqWdLBjw8">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <i class="pi pi-map-marker"></i>
+                  </div>
+                  <div class="text pl-3">
+                    <p>
+                      خرم آباد مطهری خیابان آیت اله کاشانی جنب آزمایشگاه اساتید ساختمان پزشکان
+                      جهان
+                      طبقه سوم
+                    </p>
+                  </div>
+                </a>
+                <a href="tel://989029039091" class="dbox w-100 d-flex align-items-center">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <i class="pi pi-phone"></i>
+                  </div>
+                  <div class="text pl-3">
+                    <p>09029039091</p>
+                  </div>
+                </a>
+                <a href="mailto:info@drehsangaravand.ir" class="dbox w-100 d-flex align-items-center">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <i class="pi pi-envelope"></i>
+                  </div>
+                  <div class="text pl-3">
+                    <p>info&#64;drehsangaravand.ir</p>
+                  </div>
+                </a>
+                <a href="https://www.instagram.com/drgaravand.ir/" class="dbox w-100 d-flex align-items-center">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <i class="pi pi-instagram"></i>
+                  </div>
+                  <div class="text">
+                    <p>drgaravand.ir</p>
+                  </div>
+                </a>
+                <a href="https://wa.me/989029039091" class="dbox w-100 d-flex align-items-center">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <i class="pi pi-whatsapp"></i>
+                  </div>
+                  <div class="text">
+                    <p>09029039091</p>
+                  </div>
+                </a>
+           
+                <a href="https://t.me/drehsangaravand" class="dbox w-100 d-flex align-items-center">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <i class="pi pi-send"></i>
+                  </div>
+                  <div class="text">
+                    <p>drehsangaravand</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="contact-wrap">
+                <h3>تماس با ما</h3>
+                <form [formGroup]="form" (ngSubmit)="addContactMessage()" class="contactForm">
+                  <span class="p-float-label">
+                    <input type="text" pInputText formControlName="fullName" required>
+                    <label>نام و نام خانوادگی</label>
+                  </span>
+
+                  <span class="p-float-label">
+                    <input type="text" pInputText pKeyFilter="num" formControlName="mobile" maxlength="11"
+                      minlength="11" required>
+                    <label>شماره همراه</label>
+                  </span>
+
+                  <span class="p-float-label">
+                    <input type="text" pInputText formControlName="email" required>
+                    <label>ایمیل</label>
+                  </span>
+
+                  <span class="p-float-label">
+                    <input type="text" pInputText formControlName="title" required>
+                    <label>موضوع</label>
+                  </span>
+
+                  <span class="p-float-label">
+                    <textarea rows="3" formControlName="message" required></textarea>
+                    <label>پیغام</label>
+                  </span>
+
+                  <div class="text-center">
+                    <button class="btn btn-login" type="submit">ارسال</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

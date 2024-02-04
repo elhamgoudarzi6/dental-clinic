@@ -1,0 +1,73 @@
+.services {
+    padding: 60px 0px;
+    margin: 20px 0;
+}
+
+.services .service-item {
+    margin-top: 5px;
+    padding: 25px;
+    transition: all ease-in-out 0.4s;
+    height: 100%;
+    border-radius: 10px;
+    color: var(--color1);
+    background: #fff;
+    box-shadow: 1px 1px 1px 1px rgba(#777, 0.1);
+    cursor: pointer;
+}
+
+.box {
+    background-image: linear-gradient(rgba(#0294ab, .9), rgba(#50cbcf, .9), rgba(#0294ab, .9)),
+        url('../../../../assets/images/side.png');
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    padding: 30px 15px;
+    color: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 60px;
+}
+
+.box h4 {
+    font-family: myfont-bold;
+    font-size: 25px;
+}
+
+.box p {
+    font-family: myfont;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 35px;
+}
+
+.services .service-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 1px 1px 5px 3px rgba(#777, 0.1);
+}
+
+.services .service-item .icon {
+    margin-bottom: 5px;
+}
+
+.services .service-item .icon i {
+    color: #fff;
+    color: var(--color1);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 55px;
+    transition: 0.3s;
+}
+
+.services .service-item h4 {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-family: myfont-bold !important;
+    color: var(--color1);
+}
+
+.services .service-item p {
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: justify;
+    font-family: myfont-light !important;
+    color: var(--color-font);
+}

@@ -1,0 +1,42 @@
+.services {
+    background: rgba(#0294ab, 0.7);
+    padding: 60px 0px;
+    margin: 20px 0;
+}
+
+.services .item {
+    margin-top: 5px;
+    padding: 20px 30px;
+    transition: all ease-in-out 0.4s;
+    height: 100%;
+    border-radius: 10px;
+    color: var(--color1);
+    background: rgba(#0294ab, 0.8);
+    cursor: pointer;
+    text-align: center;
+}
+
+.services .item:hover {
+    background: var(--color1);
+}
+
+.services .item .icon i {
+    color: #fff;
+    border-radius: 5px;
+    font-size: 60px;
+    transition: 0.3s;
+}
+
+.services .item h4 {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-family: myfont-bold !important;
+    color: #fff;
+}
+
+.services .item p {
+    font-size: 14px;
+    text-align: justify;
+    font-family: myfont !important;
+    color: #fff;
+}

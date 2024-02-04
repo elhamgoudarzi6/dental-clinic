@@ -1,0 +1,144 @@
+.btn-login {
+  color: #fff;
+  font-size: 14px;
+  padding: 8px 60px;
+  border-radius: 25px;
+  background: var(--color2);
+  font-family: myfont-bold !important;
+}
+.ftco-section{
+margin: 60px 0;
+}
+input {
+  height: 48px !important;
+  text-align: right;
+}
+
+form {
+  padding: 25px;
+}
+
+textarea {
+  border-radius: 25px;
+  padding: 12px 20px;
+}
+
+:host::ng-deep .p-message .p-message-detail {
+  font-size: 14px;
+  font-family: myfont !important;
+}
+
+:host::ng-deep .p-toast .p-toast-message .p-toast-message-content .p-toast-summary {
+  font-size: 14px;
+  font-family: myfont !important;
+  margin-right: 10px;
+}
+
+input {
+  border-radius: 35px;
+}
+
+input,
+:host::ng-deep .p-inputtext .p-inputtext,
+textarea {
+  width: 100% !important;
+  font-family: myfont !important;
+  border: var(--color1) 1px solid;
+}
+
+textarea:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.p-float-label {
+  margin-bottom: 22px;
+}
+
+label {
+  right: 20px;
+  left: unset;
+}
+
+.wrapper {
+  width: 100%;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 21px 41px -13px rgba(0, 0, 0, 0.18) !important;
+}
+
+.contact-wrap {
+  width: 100%;
+  position: relative;
+  border-radius: 20px;
+  background-size: cover;
+  padding: 10px 35px;
+  background: linear-gradient(45deg, var(--color1) 0%, var(--color2) 100%);
+  background: var(--color1);
+}
+
+
+.contact-wrap h3 {
+  color: #fff;
+  text-align: center;
+  font-family: myfont-bold;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.info-wrap h3 {
+  color: var(--color1);
+  position: relative;
+  font-family: myfont-bold;
+}
+
+.info-wrap h3:after {
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+  width: calc(50% - 50px);
+  height: 1px;
+  background: var(--color1);
+  content: '';
+}
+
+.info-wrap .dbox {
+  width: 100%;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.info-wrap .dbox:last-child {
+  margin-bottom: 0;
+}
+
+.info-wrap .dbox p {
+  margin-bottom: 0;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.info-wrap .dbox .icon i {
+  font-size: 22px;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  transition: 0.5s;
+  border-radius: 25px;
+  background: var(--color1);
+}
+
+.info-wrap .dbox .icon i:hover {
+  background: var(--color2);
+}
+
+.info-wrap .dbox .text {
+  width: calc(100% - 50px);
+  font-family: myfont-bold;
+}
+
+.contactForm .form-control {
+  border: none;
+  border-bottom: 1px solid rgba(#fff, 0.3);
+  padding: 0;
+}

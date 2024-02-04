@@ -1,0 +1,99 @@
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+@import url('https://fonts.cdnfonts.com/css/iranyekan');
+
+@font-face {
+    font-family: 'myfont';
+    src: url('./assets/fonts/Iranyekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'myfont-bold';
+    src: url('./assets/fonts/IranyekanBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'myfont-light';
+    src: url('./assets/fonts/IranyekanLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'myfont-num';
+    src: url('./assets/fonts/IRANSansWeb.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Flaticon";
+    src: url("./assets/fonts/Flaticon.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+}
+
+.flaticon-tooth-1:before { content: "\f100"; }
+.flaticon-anesthesia:before { content: "\f101"; }
+.flaticon-tooth-with-braces:before { content: "\f102"; }
+.flaticon-dentist:before { content: "\f103"; }
+.flaticon-tooth:before { content: "\f104"; }
+.flaticon-dental-care-1:before { content: "\f105"; }
+.flaticon-dental-care:before { content: "\f106"; }
+.flaticon-bacteria:before { content: "\f107"; }
+
+:root {
+    --color1: #0294ab;
+    --color2: #50cbcf;
+    --color-bg: #fafafa;
+    --color-font: #444;
+}
+
+body {
+    font-size: 14px;
+    direction: rtl;
+    color: var(--color-font);
+    background-color: var(--color-bg);
+    font-family: myfont !important;
+}
+
+a,
+a:hover {
+    outline-color: #ced4da;
+    text-decoration: none;
+    color: inherit;
+}
+
+// :host::ng-deep .p-input,
+// :host::ng-deep .p-inputtext,
+// input,
+// span:focus {
+//     outline: 0 !important;
+//     box-shadow: none !important;
+// }
+
+// :host::ng-deep .p-button,
+// :host::ng-deep .p-input,
+// :host::ng-deep .p-inputtext,
+// input,
+// span:focus-within {
+//     outline: 0 !important;
+//     box-shadow: none !important;
+// }
